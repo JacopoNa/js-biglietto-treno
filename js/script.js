@@ -16,7 +16,7 @@ if (userAge < 18) {
 } else if (userAge > 65) {
     ageDiscount = ticket * 0.4
 } else {
-    ageDiscount = 0
+    ageDiscount = 0   
 }
 console.log(ageDiscount.toFixed(2))
 
